@@ -124,7 +124,6 @@ return (
             </div>
           </div>
         )}
-
         {!showNew && activeConv && (
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0, zIndex: 5 }}>
             <div ref={chatRef} style={{ flex: 1, overflowY: 'auto', padding: '20px 16px', display: 'flex', flexDirection: 'column', gap: 14, maxWidth: 780, width: '100%', margin: '0 auto' }}>
